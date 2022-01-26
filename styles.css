@@ -13,6 +13,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 
 .card {
@@ -23,6 +24,7 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 16px;
+  max-width: 311px;
 }
 
 img {
@@ -31,17 +33,37 @@ img {
   border-radius: 14px;
 }
 
-/* p {
+p:first-of-type {
+  color: hsl(218, 44%, 22%);
+  font-size: 1.4rem;
+  font-weight: 700;
   padding-top: 1.5rem;
-} */
-
-
-
-.attribution { 
-  font-size: 11px; 
-  text-align: center; 
+  text-align: center;
+  margin-left: 1.2rem;
+  margin-right: 1.2rem;
 }
 
-.attribution a { 
-  color: hsl(228, 45%, 44%); 
+p:nth-of-type(2) {
+  color: hsl(220, 15%, 55%);
+  font-weight: 300;
+  padding-top: 1rem;
+  padding-bottom: 2.5rem;
+  margin-left: 1.2rem;
+  margin-right: 1.2rem;
+  text-align: center;
 }
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(207, 63%, 54%);
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  color: hsl(207, 74%, 66%);
+}
+git
