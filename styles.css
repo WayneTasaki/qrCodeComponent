@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: hsl(212, 45%, 89%);
+  font-family: Outfit;
+}
+
+.pagewrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: white;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+}
+
+img {
+  width: 17.5rem;
+  margin-top: 1rem;
+  border-radius: 14px;
+}
+
+/* p {
+  padding-top: 1.5rem;
+} */
+
+
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
