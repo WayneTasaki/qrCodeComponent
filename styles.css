@@ -25,6 +25,8 @@ body {
   align-items: center;
   border-radius: 16px;
   max-width: 311px;
+  box-shadow: 0px 17px 19px -7px rgba(20, 19, 29, 0.18);
+
 }
 
 img {
@@ -66,4 +68,3 @@ p:nth-of-type(2) {
 .attribution a:hover {
   color: hsl(207, 74%, 66%);
 }
-git
